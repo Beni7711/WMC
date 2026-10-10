@@ -1,0 +1,30 @@
+/* Box-Sizing und Grund-Reset für alle Elemente */
+* {
+    box-sizing: border-box;
+}
+
+/* Seite dekorieren: Hintergrund- und Textfarbe */
+body {
+    background-color: #f4f7f6;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem; /* Abstände in rem */
+}
+
+/* Überschrift mit rgba()-Hintergrund (halbtransparentes Blau) */
+h1 {
+    background-color: rgba(0, 102, 204, 0.15);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+/* Eigene Klasse für Container/Boxen */
+.inhalt-box {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
